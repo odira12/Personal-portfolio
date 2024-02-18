@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7ff719db3b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Portfolio</title>
+</head>
+
+<body class="font-nunito bg-blue-500">
+    <!-- Your existing content goes here -->
+
+
+    <!-- intro section -->
+<div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+    <!-- navbar -->
+    <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900 d-flex">
+        <div class="container mx-auto py-5 flex items-center justify-between navbar-container">
+            <!-- Image with border radius -->
+            <a href="" class="logo-container">
+                <img src="images/port 3liz.jpeg" class="logo-img" alt="" height="100px" width="100px" style="border-radius: 50%;">
+            </a>
+            <!-- Navbar links -->
+            <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
+                <li class="hover:text-gray-500">
+                    <a href="Index.html">homepage</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="about.html">about me</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="services.html">services</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="works.html">works</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+                
+                  
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu" class="hidden bg-blue-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a id="hLink" href="Index.html">homepage</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="about.html">about me</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="services.html">services</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="works.html">works</a>
+                    </li>
+                    <li>
+                        <a id="hLink" href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- intro content -->
+      <br>
+      <br>
+      <br>
+        <!-- image -->
+<img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" style="border: 4px solid #000;" src="images/p7.jpg" alt="" />
+
+        <!-- circle -->
+        <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-blue-900 rounded-full -z-10"></div>
+        <!-- animated text -->
+        <div class="absolute top-1/2 left-4 text-xl sm:left-8 sm:text-3xl md:left-1/3 md:text-5xl lg:left-4 xl:left-44 xl:text-6xl font-bold maque">
+            <span class="text-gray-600">SOFTWARE<br> DEVELOPER<br>  WEB DESIGNER  <br>AND A FONT END<br> DEVELOPER</span><br />
+           <!-- end of animated text -->
+        </div>
+        <!-- texts -->
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-blue-900">Hi, I'm Odira Elizabeth</h1>
+            <p class="text-gray-400">
+                with a certificate of experience on web design and development. 
+            </p>
+            <a class="bg-blue-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit" href="#contact">Hire Me</a>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services" class="font-nunito bg-blue-500">
+        <!-- Your existing content goes here -->
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-3xl dark:text-white"font-bold">SERVICES</h1>
+                <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+                <p class="w-1/2 text-center text-gray-400">
+                    My approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.
+                </p>
+            </div>
+
+            <!-- bottom -->
+            <div
+                class="flex flex-col items-center justify-center bg-white rounded-xl shadow-2xl shadow-blue-600 w-full p-10">
+                <img src="images/html logo.png" alt="" class="mb-2">
+                <p class="text-center text-3xl font-bold">HTML</p>
+                <p class="text-left lg:text-4xl text-gray-800 font-semibold sm:text-2xl">HTML skills are indispensable in the digital realm, forming the basis for web development.Whether you're a developer, designer, or content creator, mastering HTML is key to effective online
+                communication and active participation in the evolving digital landscape.</p>
+            </div>
+            <br>
+            <br>
+            <div
+            class="flex flex-col items-center justify-center bg-white rounded-xl shadow-2xl shadow-blue-600 w-full p-10">
+            <img src="images/css logo.png" alt="" class="mb-2">
+            <p class="text-center text-3xl font-bold">CSS</p>
+            <p class="text-left lg:text-4xl text-gray-800 font-semibold sm:text-2xl">CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files</p>
+        </div>
+        <br>
+        <br>
+        <div
+                class="flex flex-col items-center justify-center bg-white rounded-xl shadow-2xl shadow-blue-600 w-full p-10">
+                <img src="images/javascript logo.jpeg" alt="" class="mb-2">
+                <p class="text-center text-3xl font-bold">JS</p>
+                <p class="text-left lg:text-4xl text-gray-800 font-semibold sm:text-2xl">JavaScript is a scripting language used to develop web pages. Developed in Netscape, JS allows developers to create a dynamic and interactive web page to interact with visitors and execute complex actions. It also enables users to load content into a document without reloading the entire page.</p>
+            </div>
+            <br>
+            <br>
+            <div
+                class="flex flex-col items-center justify-center bg-white rounded-xl shadow-2xl shadow-blue-600 w-full p-10">
+                <img src="images/python logo.jpeg" alt="" class="mb-2">
+                <p class="text-center text-3xl font-bold">PYTHON</p>
+                <p class="text-left lg:text-4xl text-gray-800 font-semibold sm:text-2xl">Python is commonly used for developing websites and software, task automation, data analysis, and data visualisation. Since it's relatively easy to learn, Python has been adopted by many non-programmers, such as accountants and scientists, for a variety of everyday tasks, like organising finances.</p>
+                </div>
+
+                <!-- card -->
+                <!-- Repeat the above card structure for other services -->
+            </div>
+    
+    <!-- footer -->
+    <div class="w-full bg-blue-600">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="images/l2.png" alt="" />
+                <span class="text-2xl font-bold text-gray-900">Portfolio.</span>
+            </div>
+            <span class="hidden md:block font-medium text-gray-800">© 2023 Portfolio Design with ♥️ by Odira Elizabeth.</span>
+            <div class="flex gap-2">
+                <a href="https://viber.com" target="_blank">
+                    <i class="fa-brands fa-viber"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://whatsapp.com" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+            
+    </div>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+</body>
+
+</html>

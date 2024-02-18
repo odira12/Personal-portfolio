@@ -1,0 +1,41 @@
+
+    body {
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        border: 5px solid #000; /* Add the desired border style and color */
+    }
+    
+    
+.hidden {
+    display: none;
+}
+
+
+#menu {
+    transition: all 0.3s ease;
+}
+.contact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.form-container {
+    display: none;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
